@@ -37,10 +37,7 @@
 
 .sidePanel hr {
   width: 70%;
-  height: 0.004rem;
-  background-color: black;
-  color: black;
-  border: none;
+  border-color: rgb(0, 0, 0, 0.3);
 }
 .ageContainer,
 .locationContainer,

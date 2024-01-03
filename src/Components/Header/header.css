@@ -12,7 +12,7 @@ header{
 }
 
 .links{
-    text-decoration: none;
+    cursor: pointer;
     color: #D6D6D6;
     font-size: 1rem;
     font-weight: 600;
@@ -20,5 +20,9 @@ header{
 }
 
 .links:hover{
+    color: #FFDB70;
+}
+
+.selectedTab{
     color: #FFDB70;
 }

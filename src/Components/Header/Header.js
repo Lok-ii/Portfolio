@@ -4,7 +4,7 @@ import "./header.css";
 const Header = () => {
   return (
     <header>
-      <p className="links">
+      <p className="links selectedTab">
         About
       </p>
       <p className="links">
