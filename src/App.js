@@ -1,24 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+// import { useState } from "react";
+import "./App.css";
+import Header from "./Components/Header/Header";
+import Aboutme from "./Components/AboutMe/Aboutme";
+import Sidepanel from "./Components/Sidepanel/Sidepanel";
+import aboutData from "./Data/aboutMe.json";
+import AboutSection from "./Components/AboutSection/AboutSection";
 
 function App() {
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Sidepanel />
+      <div className="App">
+        <Header />
+        <Aboutme />
+        {
+          aboutData.map((item, idx)=>{
+            return <AboutSection key={idx} sectionName={item.category} data={item.items} id={item.id} />
+          })
+        }
+      </div>
+    </>
   );
 }
 

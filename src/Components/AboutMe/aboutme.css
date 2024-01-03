@@ -1,0 +1,70 @@
+.aboutMe {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin-top: -7rem;
+  }
+  
+  .aboutHeading {
+    align-self: flex-start;
+    color: #fafafa;
+    font-weight: 700;
+    font-size: 2rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .headingBorder {
+    width: 2.5rem;
+    height: 0.4rem;
+    border-radius: 1rem;
+    background: linear-gradient(to right, rgb(255, 219, 112), rgb(255, 187, 92));
+    /* position: absolute; */
+  }
+  
+  .aboutDetailsContainer {
+    transition: all 0.3s ease-in-out;
+    background: linear-gradient( to bottom right, rgba(45, 45, 46, 0.205) 0%, rgba(27, 27, 29, 0.171) 100% ), rgba(32, 32, 34, 0.123);
+    box-shadow: rgba(0, 0, 0, 0.125) 0px 16px 30px 0px;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem;
+  }
+  
+  .aboutContent {
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+    color: #d6d6d6;
+    line-height: 1.5rem;
+  }
+  
+  .show-hide {
+    cursor: pointer;
+    color: #d6d6d6;
+    font-size: 1.1rem;
+    font-weight: 600;
+    animation-name: bounce;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+  
+  /* ================= Animations ========= */
+  @keyframes bounce {
+    0% {
+      transform: translatey(0px);
+    }
+  
+    50% {
+      transform: translatey(10px);
+    }
+    100% {
+      transform: translatey(0px);
+    }
+  }
