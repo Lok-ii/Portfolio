@@ -1,79 +1,151 @@
-.aboutCard{
-    width: 45%;
-    height: auto;
-    padding: 1rem;
-    transition: all 0.3s ease-in-out;
-    background: linear-gradient( to bottom right, rgba(45, 45, 46, 0.205) 0%, rgba(27, 27, 29, 0.171) 100% ), rgba(32, 32, 34, 0.123);
+.aboutCard {
+  width: 45%;
+  height: auto;
+  padding: 1rem;
+  transition: all 0.3s ease-in-out;
+  background: linear-gradient(
+      to bottom right,
+      rgba(45, 45, 46, 0.205) 0%,
+      rgba(27, 27, 29, 0.171) 100%
+    ),
+    rgba(32, 32, 34, 0.123);
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  color: #d6d6d6;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.sectionImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+}
+
+.sectionImage img {
+  width: 100%;
+}
+
+.cardName {
+  color: #fafafa;
+}
+
+#progLang,
+#humLang {
+  flex-direction: column;
+  /* align-items: flex-start; */
+  transition: all 0.3s ease-in-out;
+  background: linear-gradient(
+      to bottom right,
+      rgba(45, 45, 46, 0.205) 0%,
+      rgba(27, 27, 29, 0.171) 100%
+    ),
+    rgba(32, 32, 34, 0.123);
+  padding: 3rem;
+  gap: 2rem;
+  width: 90%;
+  border-radius: 1rem;
+}
+
+.skillsCard {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* gap: 0.5rem; */
+}
+
+.languageName {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #fafafa;
+}
+
+.prof {
+  font-size: 0.7rem;
+  color: rgb(214, 214, 214, 0.7);
+}
+
+
+.techList {
+  width: 10rem !important;
+  height: 10rem !important;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  animation-name: scrollSideways;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-delay: 2s;
+}
+
+.techList img {
+    object-fit: cover;
+  /* width: 100%; */
+  height: 100%;
+}
+
+.techList:hover{
+    filter: drop-shadow(10px 10px 30px hsl(45, 100%, 71%));
+}
+
+
+#hobbies{
+    row-gap: 4rem;
+  }
+#hobbies .aboutCard{
+    position: relative;
+}
+
+#hobbies .aboutCard .sectionImage{
+    position: absolute;
+    top: -2rem;
+    width: 5rem;
+}
+
+#hobbies .aboutCard .detailsSection{
     display: flex;
-    align-items: flex-start;
+    flex-direction: column;
+    align-items: center;
     gap: 1rem;
-    color: #D6D6D6;
-    padding: 2rem;
-    border-radius: 1rem;
 }
 
-.sectionImage{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 30%;
+#hobbies .cardName{
+    font-size: 1rem;
 }
 
-.sectionImage img{
-    width: 100%;
+#hobbies .cardDescription{
+    font-size: 0.8rem;
 }
 
-.cardName{
-    color: #FAFAFA;
-}
 
-#progLang, #humLang{
-    flex-direction: column;
-    /* align-items: flex-start; */
-    transition: all 0.3s ease-in-out;
-    background: linear-gradient( to bottom right, rgba(45, 45, 46, 0.205) 0%, rgba(27, 27, 29, 0.171) 100% ), rgba(32, 32, 34, 0.123);
-    padding: 3rem;
-    gap: 2rem;
-    width: 90%;
-    border-radius: 1rem;
+@keyframes scrollSideways {
+  0% {
+    transform: translateX(-100%);
+  }
+  10% {
+    transform: translateX(-200%);
+  }20% {
+    transform: translateX(-300%);
+  }30% {
+    transform: translateX(-400%);
+  }40% {
+    transform: translateX(-500%);
+  }50% {
+    transform: translateX(-600%);
+  }60% {
+    transform: translateX(-700%);
+  }70% {
+    transform: translateX(-800%);
+  }80% {
+    transform: translateX(-900%);
+  }
+  90% {
+    transform: translateX(-1000%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
 }
-
-.skillsCard{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    /* gap: 0.5rem; */
-}
-
-.languageName{
-    font-size: 1.1rem;
-    font-weight: 600;
-    color: #FAFAFA;
-}
-
-.prof{
-    font-size: 0.7rem;
-    color: rgb(214, 214, 214, 0.7);
-}
-
-#devSkills{
-    transition: all 0.3s ease-in-out;
-    background: linear-gradient( to bottom right, rgba(45, 45, 46, 0.205) 0%, rgba(27, 27, 29, 0.171) 100% ), rgba(32, 32, 34, 0.123);
-    padding: 3rem;
-    gap: 2.5rem;
-    width: 90%;
-    border-radius: 1rem;
-}
-
-.techList{
-    width: 15%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.techList img{
-    width: 100%;
-}
-

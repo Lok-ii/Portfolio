@@ -1,6 +1,5 @@
 import AboutCard from "../AboutCards/AboutCard";
 import "./aboutsection.css";
-// import ProgressBar from "@ramonak/react-progress-bar";
 
 const AboutSection = (props) => {
   return (

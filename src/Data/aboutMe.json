@@ -47,7 +47,7 @@
   },
   {
     "category": "Programming Languages",
-    "id":"progLang",
+    "id": "progLang",
     "items": [
       {
         "name": "JavaScript",
@@ -89,7 +89,7 @@
   },
   {
     "category": "Human Languages",
-    "id":"humLang",
+    "id": "humLang",
     "items": [
       {
         "name": "English",
@@ -153,18 +153,6 @@
         "id": "mysql"
       },
       {
-        "svg": "https://oktayshakirov.com/assets/images/python.png",
-        "id": "python"
-      },
-      {
-        "svg": "https://oktayshakirov.com/assets/images/linux.png",
-        "id": "linux"
-      },
-      {
-        "svg": "https://oktayshakirov.com/assets/images/wordpress.png",
-        "id": "wordpress"
-      },
-      {
         "svg": "https://oktayshakirov.com/assets/images/github.png",
         "id": "github"
       },
@@ -173,6 +161,7 @@
   },
   {
     "category": "Favorite Activities",
+    "id":"hobbies",
     "items": [
       {
         "name": "Investments",
