@@ -31,10 +31,9 @@ function App() {
       <Sidepanel />
       <div className="App">
         <Header tab={selectedTab} setTab={setSelectedTab} />
-        {/* {
+        {
           (selectedTab === "about") ? <AboutPage /> : (selectedTab === "certificates") ? <CertificatePage /> : (selectedTab === "projects") ? <ProjectPage /> : ""
-        } */}
-        <CertificatePage />
+        }
         <div className="nextBtnCont">
           <button className="nextBtn" onClick={changePage}>
             Next <i class="fa-solid fa-angle-right"></i>
