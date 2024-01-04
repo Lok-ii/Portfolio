@@ -25,12 +25,12 @@ const Header = (props) => {
     }
   };
   return (
-    <header onClick={changeTab}>
-      <p className="links about selected">About</p>
-      <p className="links certificates">Certificates</p>
-      <p className="links projects">Projects</p>
-      <p className="links more">More</p>
-      <p className="links contact">Contact</p>
+    <header>
+      <p className="links about selected" onClick={changeTab}>About</p>
+      <p className="links certificates" onClick={changeTab}>Certificates</p>
+      <p className="links projects" onClick={changeTab}>Projects</p>
+      <p className="links more" onClick={changeTab}>More</p>
+      <p className="links contact" onClick={changeTab}>Contact</p>
     </header>
   );
 };
