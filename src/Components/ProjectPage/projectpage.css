@@ -28,9 +28,9 @@
     color: #D6D6D6;
 }
 
-.option:focus{
+/* .option:focus{
     color: #FFDB70;
-}
+} */
 
 .selected{
     color: #FFDB70;
