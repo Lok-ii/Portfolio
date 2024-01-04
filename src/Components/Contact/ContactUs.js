@@ -1,7 +1,8 @@
-import React from 'react';
+import React, {useState} from 'react';
 import "./contactus.css";
 
 const ContactUs = () => {
+  const [copy, setCopy] = useState("Copy");
   return (
     <div className='contactPage'>
         <h1 className="aboutHeading">
@@ -14,7 +15,14 @@ const ContactUs = () => {
           <p className="emailId">
           oktayshakirov@gmail.com
           </p>
-          <p className="copy">Copy</p>
+          <p className="copy" onClick={()=>{
+            navigator.clipboard.writeText('oktayshakirov@gmail.com');
+            if(copy==="Copy"){
+              setCopy("Copied");
+            }else{
+              setCopy("Copy");
+            }
+          }}>{copy}</p>
         </div>
       </div>
       <div className="scheduleCall">
