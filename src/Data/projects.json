@@ -1,0 +1,81 @@
+[
+    {
+      "img": "https://oktayshakirov.com/assets/images/projects/mybestwishes.jpg",
+      "title": "MyBestWishes AI Generator",
+      "detail": "Design + Frontend",
+      "technology": "Figma | React.js | Chakra UI"
+    },
+    {
+      "img": "https://oktayshakirov.com/assets/images/projects/myworkphoto.png",
+      "title": "MyWorkPhoto AI Generator",
+      "detail": "Design + Frontend",
+      "technology": "Figma | React.js | Chakra UI"
+    },
+    {
+      "img": "https://oktayshakirov.com/assets/images/projects/ogno-dashboard.png",
+      "title": "Ogno Marketing Dashboard",
+      "detail": "Fullstack Project",
+      "technology": "React.js | Strapi.js | MySQL"
+    },
+    {
+      "img": "https://oktayshakirov.com/assets/images/projects/bayer-askmed.png",
+      "title": "AskMed By Bayer",
+      "detail": "Website + Chatbot",
+      "technology": "Drupal | PHP | CSS"
+    },
+    {
+      "img": "https://oktayshakirov.com/assets/images/projects/enemzet.png",
+      "title": "EnEmZet Online Store",
+      "detail": "Website + Admin Panel",
+      "technology": "Next.js | TypeScript | MySQL"
+    },
+    {
+      "img": "https://oktayshakirov.com/assets/images/projects/tinnitus-blog.png",
+      "title": "Beyond Tinnitus Blog",
+      "detail": "Website",
+      "technology": "Next.js | TypeScript | Material-UI"
+    },
+    {
+      "img": "https://oktayshakirov.com/assets/images/projects/watch_store.png",
+      "title": "Timeazon Online Store",
+      "detail": "Website + Admin Panel",
+      "technology": "React.js | Node.js | MySQL | Sass"
+    },
+    {
+      "img": "https://oktayshakirov.com/assets/images/projects/weather-app.png",
+      "title": "Weather App",
+      "detail": "Application",
+      "technology": "JavaScript | API's | CSS"
+    },
+    {
+      "img": "https://oktayshakirov.com/assets/images/projects/pigletz-matching.png",
+      "title": "Pigletz Memory Game",
+      "detail": "Web Game",
+      "technology": "JavaScript | CSS"
+    },
+  
+    {
+      "img": "https://oktayshakirov.com/assets/images/projects/team-manager.png",
+      "title": "Team Management Tool",
+      "detail": "Application",
+      "technology": "PHP | CSV Data | CSS"
+    },
+    {
+      "img": "https://oktayshakirov.com/assets/images/projects/portfolio.png",
+      "title": "Personal Portfolio",
+      "detail": "Website",
+      "technology": "JavaScript | CSS | HTML"
+    },
+    {
+      "img": "https://oktayshakirov.com/assets/images/projects/quiz.png",
+      "title": "Quiz Time",
+      "detail": "Game",
+      "technology": "PHP | CSS | HTML"
+    },
+    {
+      "img": "https://oktayshakirov.com/assets/images/projects/berlinew.jpg",
+      "title": "BerliNEW Android App",
+      "detail": "Application",
+      "technology": "Wordpress | Android SDK"
+    }
+  ]

@@ -2,24 +2,23 @@ import React from "react";
 // import { useState } from "react";
 import "./App.css";
 import Header from "./Components/Header/Header";
-import Aboutme from "./Components/AboutMe/Aboutme";
 import Sidepanel from "./Components/Sidepanel/Sidepanel";
-import aboutData from "./Data/aboutMe.json";
-import AboutSection from "./Components/AboutSection/AboutSection";
+import AboutPage from "./Components/AboutPage/AboutPage";
+import ProjectPage from "./Components/ProjectPage/ProjectPage";
 
 function App() {
-  
   return (
     <>
       <Sidepanel />
       <div className="App">
         <Header />
-        <Aboutme />
-        {
-          aboutData.map((item, idx)=>{
-            return <AboutSection key={idx} sectionName={item.category} data={item.items} id={item.id} />
-          })
-        }
+        <AboutPage />
+        {/* <ProjectPage /> */}
+        <div className="nextBtnCont">
+          <button className="nextBtn">
+            Next <i class="fa-solid fa-angle-right"></i>
+          </button>
+        </div>
       </div>
     </>
   );
