@@ -3,79 +3,105 @@
       "img": "https://oktayshakirov.com/assets/images/projects/mybestwishes.jpg",
       "title": "MyBestWishes AI Generator",
       "detail": "Design + Frontend",
-      "technology": "Figma | React.js | Chakra UI"
+      "technology": "Figma | React.js | Chakra UI",
+      "preview": "",
+      "github": ""
     },
     {
       "img": "https://oktayshakirov.com/assets/images/projects/myworkphoto.png",
       "title": "MyWorkPhoto AI Generator",
       "detail": "Design + Frontend",
-      "technology": "Figma | React.js | Chakra UI"
+      "technology": "Figma | React.js | Chakra UI",
+      "preview": "",
+      "github": ""
     },
     {
       "img": "https://oktayshakirov.com/assets/images/projects/ogno-dashboard.png",
       "title": "Ogno Marketing Dashboard",
       "detail": "Fullstack Project",
-      "technology": "React.js | Strapi.js | MySQL"
+      "technology": "React.js | Strapi.js | MySQL",
+      "preview": "",
+      "github": "https://github.com/oktayshakirov/marketing-dashboard"
     },
     {
       "img": "https://oktayshakirov.com/assets/images/projects/bayer-askmed.png",
       "title": "AskMed By Bayer",
       "detail": "Website + Chatbot",
-      "technology": "Drupal | PHP | CSS"
+      "technology": "Drupal | PHP | CSS",
+      "preview": "https://askmed.bayer.com/",
+      "github": ""
     },
     {
       "img": "https://oktayshakirov.com/assets/images/projects/enemzet.png",
       "title": "EnEmZet Online Store",
       "detail": "Website + Admin Panel",
-      "technology": "Next.js | TypeScript | MySQL"
+      "technology": "Next.js | TypeScript | MySQL",
+      "preview": "https://enemzet.store/",
+      "github": "https://github.com/En-Em-Zet"
     },
     {
       "img": "https://oktayshakirov.com/assets/images/projects/tinnitus-blog.png",
       "title": "Beyond Tinnitus Blog",
       "detail": "Website",
-      "technology": "Next.js | TypeScript | Material-UI"
+      "technology": "Next.js | TypeScript | Material-UI",
+      "preview": "https://www.beyondtinnitus.online/",
+      "github": "https://github.com/oktayshakirov/tinnitus-blog"
     },
     {
       "img": "https://oktayshakirov.com/assets/images/projects/watch_store.png",
       "title": "Timeazon Online Store",
       "detail": "Website + Admin Panel",
-      "technology": "React.js | Node.js | MySQL | Sass"
+      "technology": "React.js | Node.js | MySQL | Sass",
+      "preview": "https://timeazon.netlify.app/",
+      "github": "https://github.com/oktayshakirov/timeazon-fullstack"
     },
     {
       "img": "https://oktayshakirov.com/assets/images/projects/weather-app.png",
       "title": "Weather App",
       "detail": "Application",
-      "technology": "JavaScript | API's | CSS"
+      "technology": "JavaScript | API's | CSS",
+      "preview": "https://oktayshakirov.github.io/weather-app/",
+      "github": "https://github.com/oktayshakirov/weather-app"
     },
     {
       "img": "https://oktayshakirov.com/assets/images/projects/pigletz-matching.png",
       "title": "Pigletz Memory Game",
       "detail": "Web Game",
-      "technology": "JavaScript | CSS"
+      "technology": "JavaScript | CSS",
+      "preview": "https://oktayshakirov.github.io/pigletz-matching/",
+      "github": "https://github.com/oktayshakirov/pigletz-matching"
     },
-  
     {
       "img": "https://oktayshakirov.com/assets/images/projects/team-manager.png",
       "title": "Team Management Tool",
       "detail": "Application",
-      "technology": "PHP | CSV Data | CSS"
+      "technology": "PHP | CSV Data | CSS",
+      "preview": "",
+      "github": ""
     },
     {
       "img": "https://oktayshakirov.com/assets/images/projects/portfolio.png",
       "title": "Personal Portfolio",
       "detail": "Website",
-      "technology": "JavaScript | CSS | HTML"
+      "technology": "JavaScript | CSS | HTML",
+      "preview": "",
+      "github": ""
     },
     {
       "img": "https://oktayshakirov.com/assets/images/projects/quiz.png",
       "title": "Quiz Time",
       "detail": "Game",
-      "technology": "PHP | CSS | HTML"
+      "technology": "PHP | CSS | HTML",
+      "preview": "",
+      "github": ""
     },
     {
       "img": "https://oktayshakirov.com/assets/images/projects/berlinew.jpg",
       "title": "BerliNEW Android App",
       "detail": "Application",
-      "technology": "Wordpress | Android SDK"
+      "technology": "Wordpress | Android SDK",
+      "preview": "",
+      "github": ""
     }
   ]
+  

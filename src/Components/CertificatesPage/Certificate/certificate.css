@@ -1,0 +1,49 @@
+.Certificate{
+    width: 100%;
+    position: relative;
+}
+
+.certCont{
+    width: 100%;
+}
+
+.certImage{
+    width: 14.375rem;
+    height: 10rem;
+    border: 10px solid black;
+    padding: 0.3rem;
+    cursor: zoom-in;
+    transition: all 0.3s ease-in-out;
+}
+
+.certImage:hover{
+    padding: 0;
+}
+
+.certImage img{
+    width: 100%;
+    height: 100%;
+
+}
+
+.Certificate:not(:last-child)::before {
+    content: "";
+    position: absolute;
+    top: -25px;
+    left: -30px;
+    width: 1px;
+    height: calc(100% + 80px);
+    background: rgb(56, 56, 56);
+}
+
+.Certificate::after {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: -33px;
+    height: 6px;
+    width: 6px;
+    background: linear-gradient( to right, rgb(255, 219, 112), rgb(255, 187, 92) );
+    border-radius: 50%;
+    box-shadow: 0 0 0 4px rgb(56, 56, 56);
+}

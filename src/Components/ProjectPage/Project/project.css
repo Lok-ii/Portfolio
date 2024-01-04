@@ -5,6 +5,7 @@
     align-items: center;
     gap: 1rem;
     cursor: pointer;
+    flex-grow: 1;
 }
 
 .project:hover .projectImg img{
@@ -40,7 +41,13 @@
     color: RGBA(214, 214, 214, 0.7);
 }
 
-.previewBtn{
+.prevLink, .gitLink{
+    width: 100%;
+    text-decoration: none;
+    border-radius: 0.3rem;
+}
+
+.previewBtn, .githubBtn{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -49,12 +56,11 @@
     padding: 0.25rem 0;
     border-radius: 0.3rem;
     border: none;
-    background-color: rgba(0, 0, 0, 0.2);
     color: #FFDB70;
     font-size: 1rem;
     cursor: pointer;
 }
 
-.previewBtn:hover{ 
+.prevLink:hover, .gitLink:hover{ 
     background-color: rgba(0, 0, 0, 0.4);
 }

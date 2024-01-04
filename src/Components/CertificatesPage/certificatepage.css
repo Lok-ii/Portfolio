@@ -1,0 +1,54 @@
+.certificatePage{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin-top: -7rem;
+    align-items: center;
+    gap: 5rem;
+}
+
+.certificateContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5rem;
+}
+
+.certificateSection{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.certificateTitle{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.titleIcon{
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(32, 32, 34, 0.836);
+    border-radius: 1rem;
+    color: #FFDB70;
+}
+
+.certTitle{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #FAFAFA;
+}
+
+.certificateList{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding-left: 3.3rem;
+}
+

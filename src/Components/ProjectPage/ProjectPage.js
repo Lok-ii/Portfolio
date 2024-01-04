@@ -7,14 +7,32 @@ const ProjectPage = () => {
   const [projects, setProjects] = useState(projectData);
 
   const selectCategory = (e) => {
-    if (e.target.classList.contains("all")) {
+    let options = document.querySelectorAll(".option");
+    options.forEach((opt) => opt.classList.remove("selected"));
+    if (e.target.classList.contains("websites")) {
       e.target.classList.add("selected");
+      setProjects(()=>{
+        return projectData.filter((proj) => proj.detail.includes("Website") || proj.detail.includes("Design"));
+      });
+    }else if (e.target.classList.contains("apps")) {
+      e.target.classList.add("selected");
+      setProjects(()=>{
+        return projectData.filter((proj) => proj.detail === "Application" || proj.detail === "Fullstack Project")
+      });
+    } else if (e.target.classList.contains("games")) {
+      e.target.classList.add("selected");
+      setProjects(()=>{
+        return projectData.filter((proj) => proj.detail.includes("Game"));
+      });
+    }else{
+      e.target.classList.add("selected");
+      setProjects(projectData);
     }
   };
   return (
     <div className="projectPage">
       <h1 className="aboutHeading">
-        Certificates
+        Projects
         <span className="headingBorder"></span>
       </h1>
       <div className="projectList">
@@ -34,6 +52,8 @@ const ProjectPage = () => {
                 title={item.title}
                 detail={item.detail}
                 technology={item.technology}
+                preview={item.preview}
+                github={item.github}
               />
             );
           })}

@@ -5,6 +5,7 @@ import Header from "./Components/Header/Header";
 import Sidepanel from "./Components/Sidepanel/Sidepanel";
 import AboutPage from "./Components/AboutPage/AboutPage";
 import ProjectPage from "./Components/ProjectPage/ProjectPage";
+import CertificatePage from "./Components/CertificatesPage/CertificatePage";
 
 function App() {
   const [selectedTab, setSelectedTab] = useState("about");
@@ -30,9 +31,10 @@ function App() {
       <Sidepanel />
       <div className="App">
         <Header tab={selectedTab} setTab={setSelectedTab} />
-        {
-          (selectedTab === "about") ? <AboutPage /> : (selectedTab === "projects") ? <ProjectPage /> : ""
-        }
+        {/* {
+          (selectedTab === "about") ? <AboutPage /> : (selectedTab === "certificates") ? <CertificatePage /> : (selectedTab === "projects") ? <ProjectPage /> : ""
+        } */}
+        <CertificatePage />
         <div className="nextBtnCont">
           <button className="nextBtn" onClick={changePage}>
             Next <i class="fa-solid fa-angle-right"></i>

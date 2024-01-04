@@ -26,6 +26,9 @@
     cursor: pointer;
     font-size: 0.95rem;
     color: #D6D6D6;
+    border: none;
+    background-color: transparent;
+    outline: none;
 }
 
 /* .option:focus{
@@ -43,4 +46,5 @@
     align-items: center;
     flex-wrap: wrap;
     row-gap: 2rem;
+    gap: 2rem;
 }
