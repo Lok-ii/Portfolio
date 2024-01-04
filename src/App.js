@@ -6,6 +6,8 @@ import Sidepanel from "./Components/Sidepanel/Sidepanel";
 import AboutPage from "./Components/AboutPage/AboutPage";
 import ProjectPage from "./Components/ProjectPage/ProjectPage";
 import CertificatePage from "./Components/CertificatesPage/CertificatePage";
+import MorePage from "./Components/MorePage/MorePage";
+import ContactUs from "./Components/Contact/ContactUs";
 
 function App() {
   const [selectedTab, setSelectedTab] = useState("about");
@@ -32,7 +34,7 @@ function App() {
       <div className="App">
         <Header tab={selectedTab} setTab={setSelectedTab} />
         {
-          (selectedTab === "about") ? <AboutPage /> : (selectedTab === "certificates") ? <CertificatePage /> : (selectedTab === "projects") ? <ProjectPage /> : ""
+          (selectedTab === "about") ? <AboutPage /> : (selectedTab === "certificates") ? <CertificatePage /> : (selectedTab === "projects") ? <ProjectPage /> : (selectedTab === "more") ? <MorePage /> : <ContactUs />
         }
         <div className="nextBtnCont">
           <button className="nextBtn" onClick={changePage}>
