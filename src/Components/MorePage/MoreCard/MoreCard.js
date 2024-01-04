@@ -14,29 +14,17 @@ const MoreCard = (props) => {
       </div>
       <div className="cardButtons">
         <a href={props.website} className="webLink">
-          <button
-            className="webBtn"
-            // style={{ backgroundColor: gitColor }}
-            // disabled={github}
-          >
+          <button className="webBtn">
             <i class="fa-solid fa-globe"></i> Website
           </button>
         </a>
         <a href={props.insta} className="instaLink">
-          <button
-            className="instaBtn"
-            // style={{ backgroundColor: gitColor }}
-            // disabled={github}
-          >
+          <button className="instaBtn">
             <i class="fa-brands fa-instagram"></i>Instagram
           </button>
         </a>
         <a href={props.youtube} className="ytLink">
-          <button
-            className="ytBtn"
-            // style={{ backgroundColor: gitColor }}
-            // disabled={github}
-          >
+          <button className="ytBtn">
             <i class="fa-brands fa-youtube"></i> Youtube
           </button>
         </a>
