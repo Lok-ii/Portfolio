@@ -32,7 +32,7 @@ function App() {
     <>
       <Sidepanel />
       <div className="App">
-        <Header tab={selectedTab} setTab={setSelectedTab} />
+        <Header tab={selectedTab} setTab={setSelectedTab} setNextBtn={setNextBtn} />
         {
           (selectedTab === "about") ? <AboutPage /> : (selectedTab === "certificates") ? <CertificatePage /> : (selectedTab === "projects") ? <ProjectPage /> : (selectedTab === "more") ? <MorePage /> : <ContactUs />
         }
